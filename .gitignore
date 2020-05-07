@@ -1,0 +1,7 @@
+.DS_store
+.idea
+.git
+psd
+node_modules
+build/*.html
+/*.exe.stackdump

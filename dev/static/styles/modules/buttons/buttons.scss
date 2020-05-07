@@ -1,0 +1,74 @@
+button {
+    transition: all 0.2s;
+    color: $color-light;
+    padding: 0;
+    &:hover {
+        opacity: 0.9;
+    }
+}
+.button {
+    color: $color-light;
+    font-family: $Reg;
+    min-height: 40px;
+    width: 170px;
+    text-transform: uppercase;
+    padding-left: 15px;
+    padding-right: 15px;
+    &:disabled {
+        opacity: 0.5 !important;
+        cursor: not-allowed !important;
+    }
+    &.disabled {
+        opacity: 0.5 !important;
+        cursor: not-allowed !important;
+    }
+    &:hover {
+        opacity: 0.9;
+    }
+    &__small {
+        width: 120px;
+    }
+    &__wide {
+        width: 250px;
+    }
+    &__accent {
+        background-color: $color-accent;
+        color: $color-light;
+    }
+    &__primary {
+        background-color: $color-primary;
+        color: $color-light;
+    }
+    &__ghost {
+        background-color: $color-light;
+        &--landing-form {
+            border: 2px solid $color-primary;
+            color: $color-primary;
+            background-color: $color-light;
+        }
+    }
+    &__ghostbutton {
+        color: $color-accent;
+        background-color: transparent;
+        border: 2px solid $color-accent;
+        &:hover {
+            background-color: $color-accent;
+            color: $color-light;
+            opacity: 1;
+        }
+    }
+    &__cabinet {
+        width: 241px;
+        height: 37px;
+        border-radius: 5px;
+    }
+    &__reset {
+        @include px-to-rem(16);
+        color: #585858;
+        background-color: transparent;
+        &:hover {
+            text-decoration: underline;
+            text-decoration-color: #585858;
+        }
+    }
+}
