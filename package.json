@@ -14,7 +14,7 @@
         "del": "^5.1.0",
         "smart-grid": "^2.1.2",
         "prettier": "^1.19.1",
-        "node-sass": "^4.13.1",
+        "node-sass": "^7.0.0",
         "gulp": "^4.0.2",
         "gulp-autoprefixer": "^6.0.0",
         "gulp-babel": "^8.0.0",
